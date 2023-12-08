@@ -13,7 +13,7 @@ import { CgClose } from "react-icons/cg";
 import { Context } from "../context/contextApi";
 import Loader from "../shared/loader";
 
-const Header = () => {
+const Header = () => { 
     const [searchQuery, setSearchQuery] = useState("");
 
     const { loading, mobileMenu, setMobileMenu } = useContext(Context);
