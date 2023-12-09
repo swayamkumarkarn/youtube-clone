@@ -60,7 +60,7 @@ const Header = () => {
                         alt="Youtube"
                     />
                     <img
-                        className="h-full md:hidden"
+                        className="h-full dark:md:hidden"
                         src={ytLogoMobile}
                         alt="Youtube"
                     />
